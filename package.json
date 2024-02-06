@@ -1,0 +1,29 @@
+{
+  "name": "template-vite-ts",
+  "description": "A Phaser 3 TypeScript template using Vite.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaserjs/template-vite-ts.git"
+  },
+  "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "bugs": {
+    "url": "https://github.com/phaserjs/template-vite-ts/issues"
+  },
+  "homepage": "https://github.com/phaserjs/template-vite-ts#readme",
+  "scripts": {
+    "dev": "vite --config vite/config.dev.js",
+    "build": "vite build --config vite/config.prod.js",
+    "deploy": "vite build --config vite/config.prod.js && cp -r /Users/romka/Work/RND/games/002/dist/* /Users/romka/Downloads/game-preview/"
+  },
+  "devDependencies": {
+    "terser": "^5.27.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "phaser": "^3.70.0"
+  }
+}
